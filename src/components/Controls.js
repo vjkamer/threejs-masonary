@@ -60,7 +60,7 @@ export const Controls = ({
     <MapControls
       ref={controlsRef}
       enableRotate={false}
-      panSpeed={size.width > 773 ? 1.5 : 2.25}
+      panSpeed={size.width > 773 ? 0.7 : 1.5}
       enableZoom={false}
       // maxZoom={1000}
       // minZoom={500}

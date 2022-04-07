@@ -54,7 +54,7 @@ export function GameCard(props) {
   const { scaleIndex } = useSpring({
     from: { scaleIndex: 1 },
     scaleIndex: hover ? 1.07 : 1,
-    config: config.wobbly,
+    config: config.gentle,
   });
 
   return (

@@ -34,7 +34,7 @@ export function App() {
         rowsNumber={rowsNumber}
         contentWidth={contentWidth}
         contentHeight={contentHeight}
-        enableMovement={true}
+        enableMovement={false}
       />
     </>
   );

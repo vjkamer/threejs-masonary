@@ -11,8 +11,8 @@ export function BonusCardCore({
   imageHeight,
   spaceBetweenCards,
 }) {
-  const spriteTexture = useLoader(THREE.TextureLoader, "./bonus-sprite.png");
-  const animator = new PlainAnimator(spriteTexture, 10, 11, 60, 12);
+  const spriteTexture = useLoader(THREE.TextureLoader, "./sprite.png");
+  const animator = new PlainAnimator(spriteTexture, 10, 4, 40, 12);
   const texture = animator.init();
   const ref = React.useRef();
 
